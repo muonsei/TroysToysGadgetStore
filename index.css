@@ -1,24 +1,36 @@
-.navbar {
-    position:fixed;
-    top:0;
-    left:0;
-    padding:20px;
-    width:100%;
-    height:20%;
-    color:white;
-    background-color:RGB(29,135,236);
+html {
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.navbar-top {
+header {
+    position: fixed;
+    background-color: RGB(29,135,236);
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    overflow: hidden;
+}
 
+.main {
+    margin-top: 15%;
+}
+
+.navbartop {
+    display: inline-block;
 }
 
 #signuplink {
-    background-color:transparent;
+    background-color:RGB(29,135,236);
     color: white;
-    border-width: 2px;
-    border-color:white;
+    border: 2px solid white;
     border-radius: 20px;
+    padding: 5px;
+    margin: 7px;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
 }
 
 #signuplink:hover {
@@ -26,7 +38,7 @@
     color: RGB(29,135,236);
 }
 
-.navbar-top a {
+.navbartop a {
     color: white;
     text-decoration: none;
     display: inline;
@@ -34,28 +46,35 @@
     text-align: center;
 }
 
-.navbar-search {
+form {
+    display: inline-block;
+}
+
+nav {
 
 }
 
-.navbar-bottom {
-
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
 }
 
-.navbar-bottom a {
-    padding: 3px;
+nav a {
+    padding: 5px;
+    margin: 7px;
     text-decoration:none;
     color:white;
+    display: inline;
+    border-radius: 20px;
     transition: all 600ms ease-in-out;
     -webkit-transition: all 600ms ease-in-out;
     -moz-transition: all 600ms ease-in-out;
     -o-transition: all 600ms ease-in-out;
 }
 
-.navbar-bottom a:hover{
+nav a:hover{
     background-color:white;
     color: RGB(29,135,236);
-    border-radius: 20px;
 }
 
 .ad {
@@ -67,5 +86,5 @@
 }
 
 .footer {
-
+    bottom: 0;
 }
