@@ -28,7 +28,7 @@ a {
     border: 2px solid RGB(29,135,236);
     border-radius: 20px;
     padding: 5px;
-    margin: 7px 7px 7px 7x;
+    margin: 7px;
     transition: all 600ms ease-in-out;
     -webkit-transition: all 600ms ease-in-out;
     -moz-transition: all 600ms ease-in-out;
@@ -36,6 +36,28 @@ a {
 }
 
 .bluebtn-allcaps:hover {
+    background-color:white;
+    color: RGB(29,135,236);
+    border: 2px solid RGB(29,135,236);
+}
+
+.bluebtn-allcaps-large {
+    text-transform: uppercase;
+    background-color:RGB(29,135,236);
+    border: 2px solid RGB(29,135,236);
+    border-radius: 20px;
+    padding: 5px;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+	height: 45px;
+	font-size:15px;
+	color:white;
+	margin-left: 10px;
+}
+
+.bluebtn-allcaps-large:hover {
     background-color:white;
     color: RGB(29,135,236);
     border: 2px solid RGB(29,135,236);
@@ -362,15 +384,6 @@ footer a{
 
 #tranProd{
 	margin-top:50px;
-}
-
-#btnAddCart{
-	height: 45px;
-	font-size:15px;
-	background-color: RGB(29,135,236);
-	border: none;
-	color:white;
-	margin-left: 10px;
 }
 
 #scrollQuantity{
