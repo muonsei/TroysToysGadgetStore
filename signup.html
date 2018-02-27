@@ -14,38 +14,50 @@
             <div id="login">
                 <form>
                     <div class="div-form">
-                        <label for="firstname" class="formlabel">First Name</label>
-                        <input type="text" name="firstname" />
-                    </div>
-                    <div class="div-form">
-                        <label for="lastname" class="formlabel">Last Name</label>
-                        <input type="text" name="lastname" />
-                    </div>
-                    <div class="div-form">
-                        <label for="birthdate" class="formlabel">Birthdate</label>
-                        <input type="date" name="birthdate" />
-                    </div>
-                    <div class="div-form">
-                        <label for="email" class="formlabel">Email</label>
-                        <input type="email" name="email" />
-                    </div>
-                    <div class="div-form">
-                        <label for="password" class="formlabel">Password</label>
-                        <input type="password" name="password" />
-                    </div>
-                    <div class="div-form">
-                        <label for="mailingaddress" class="formlabel">Mailing Address</label>
-                        <textarea name="mailingaddress"></textarea>
-                    </div>
-                    <div class="div-form">
-                        <label for="mobilenum" class="formlabel">Mobile Number</label>
-                        <input type="text" name="mobilenum" />
+                        <table>
+                            <tr>
+                                <td><label for="firstname" class="formlabel">First Name <span class="red-text">*</span></label></td>
+                                <td><input type="text" name="firstname" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="lastname" class="formlabel">Last Name <span class="red-text">*</span></label></td>
+                                <td><input type="text" name="lastname" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="birthdate" class="formlabel">Birthdate <span class="red-text">*</span></label></td>
+                                <td><input type="date" name="birthdate" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email" class="formlabel">Email <span class="red-text">*</span></label></td>
+                                <td><input type="email" name="email" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="password" class="formlabel">Password <span class="red-text">*</span></label></td>
+                                <td><input type="password" name="password" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="mailingaddress" class="formlabel">Mailing Address <span class="red-text">*</span></label></td>
+                                <td><textarea name="mailingaddress"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><label for="mobilenum" class="formlabel">Mobile Number <span class="red-text">*</span></label></td>
+                                <td><input type="text" name="mobilenum" /></td>
+                            </tr>
+                            <tr>
+                                <td/>
+                                <td><input type="submit" value="Sign up" class="bluebtn-allcaps"></td>
+                            </tr>
+                            <tr>
+                                <td/>
+                                <td>Have an account? <a href="/signin.html">Sign in here.</a></center></td>
+                            </tr>
+                        </table>
                     </div>
                     <div class="div-btn-submit">
-                        <input type="submit" value="Sign up" class="bluebtn-allcaps">
+                        
                     </div>
-                    <div class="div-additional">
-                        Have an account? <a href="/signin.html">Sign in here.</a>
+                    <div class="div-additional-right">
+                        
                     </div>
                 </form>
             </div>
