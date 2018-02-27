@@ -312,3 +312,68 @@ footer a{
     margin:0;
     padding:0;
 }
+
+/*---------PRODUCT PAGE---------*/
+
+#holderProd{
+	width:100%;
+	height:70%;
+	display: inline-block;
+	display: flex;
+}
+#holderProd > div:nth-child(2) { flex: 1; }
+#picProd{
+	width:50%;
+	height:100%;
+}
+
+#picProd .imgProd{
+	margin-left:10%;
+	margin-top:8%;
+	width:80%;
+	height:100%;
+}
+#details{
+	width:40%;
+	height:100%;
+	float: right;
+	top:0;
+	padding:20px;
+}
+
+#details .pName{
+	font-size:36px;
+	text-align: justify;
+	font-weight: bolder;
+}
+
+#details .pPrice{
+	font-size:20px;
+	text-align: justify;
+	font-weight: bold;
+
+}
+
+#details .pDescription{
+	font-size:15px;
+	text-align: justify;
+}
+
+#tranProd{
+	margin-top:50px;
+}
+
+#btnAddCart{
+	height: 45px;
+	font-size:15px;
+	background-color: RGB(29,135,236);
+	border: none;
+	color:white;
+	margin-left: 10px;
+}
+
+#scrollQuantity{
+	height:40px;
+	width:50px;
+	font-size:13px;
+}
