@@ -21,6 +21,10 @@ a {
     color: RGB(29,135,236);
 }
 
+.red-text {
+    color: RGB(218,84,70);
+}
+
 .bluebtn-allcaps {
     text-transform: uppercase;
     background-color:RGB(29,135,236);
@@ -107,21 +111,45 @@ header {
     text-align: center;
 }
 
+table td {
+    text-align: right;
+}
+
 form {
     display: inline-block;
 }
 
-form input {
-    
-}
-
 .formlabel {
-    float: left;
-    text-align: right;
+    float: right;
     padding-right: 10px;
 }
 
-input {
+input[type=text] {
+    width: 90%;
+    padding: 4px;
+    border: solid 2px RGB(196,196,196);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+input[type=date] {
+    width: 90%;
+    padding: 4px;
+    border: solid 2px RGB(196,196,196);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+input[type=email] {
+    width: 90%;
+    padding: 4px;
+    border: solid 2px RGB(196,196,196);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+input[type=password] {
+    width: 90%;
     padding: 4px;
     border: solid 2px RGB(196,196,196);
     border-radius: 15px;
@@ -129,18 +157,11 @@ input {
 }
 
 textarea {
+    width: 90%;
     padding: 4px;
     border: solid 2px RGB(196,196,196);
     border-radius: 15px;
     margin: 5px;
-}
-
-.div-btn-submit {
-    text-align: right;
-}
-
-.div-additional {
-    text-align: right;
 }
 
 .navbartop input[type=text] {
