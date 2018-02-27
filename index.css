@@ -4,6 +4,38 @@ html {
     position: relative;
 }
 
+h1 {
+    margin-bottom: 0px;
+    font-family: 'League Spartan';
+    text-transform: uppercase;
+    color: RGB(29,135,236);
+}
+
+a {
+    text-decoration: none;
+    color: RGB(29,135,236);
+}
+
+.bluebtn-allcaps {
+    text-transform: uppercase;
+    background-color:RGB(29,135,236);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 7px 7px 7px 21px;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+}
+
+.bluebtn-allcaps:hover {
+    background-color:white;
+    color: RGB(29,135,236);
+    border: 2px solid RGB(29,135,236);
+}
+
 header {
     position: fixed;
     background-color: RGB(29,135,236);
@@ -155,6 +187,23 @@ a.control_next {
 
 .product-grid {
 
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#login {
+    padding: 20px;
+    border-top: solid RGB(29,135,236) 3px;
+    text-align: center;
+}
+
+#loginwarning {
+    text-align: center;
+    margin: 20px;
+    color: RGB(218,84,70);
 }
 
 .footer {
