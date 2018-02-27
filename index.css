@@ -6,11 +6,12 @@ html {
 
 body {
     display: grid;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
     margin-bottom: 0px;
-    font-family: 'League Spartan';
+    font-family: 'League Spartan', sans-serif;
     text-transform: uppercase;
     color: RGB(29,135,236);
 }
@@ -176,7 +177,7 @@ nav a:hover{
     left:10;
     position: fixed;
     color: white;
-    font-family: 'League Spartan';
+    font-family: 'League Spartan', sans-serif;
 }
 
 #searchPart{
