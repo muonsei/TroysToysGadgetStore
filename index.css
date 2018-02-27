@@ -4,6 +4,10 @@ html {
     position: relative;
 }
 
+body {
+    display: grid;
+}
+
 h1 {
     margin-bottom: 0px;
     font-family: 'League Spartan';
@@ -20,10 +24,10 @@ a {
     text-transform: uppercase;
     background-color:RGB(29,135,236);
     color: white;
-    border: 2px solid white;
+    border: 2px solid RGB(29,135,236);
     border-radius: 20px;
     padding: 5px;
-    margin: 7px 7px 7px 21px;
+    margin: 7px 7px 7px 7x;
     transition: all 600ms ease-in-out;
     -webkit-transition: all 600ms ease-in-out;
     -moz-transition: all 600ms ease-in-out;
@@ -43,7 +47,8 @@ header {
     right: 0;
     left: 0;
     padding: 20px;
-    overflow: hidden;
+    height:15%;
+
 }
 
 .main {
@@ -51,16 +56,15 @@ header {
 }
 
 .navbartop {
-    display: inline-block;
+    display: inline;
 }
-
 #signuplink {
     background-color:RGB(29,135,236);
     color: white;
     border: 2px solid white;
     border-radius: 20px;
     padding: 5px;
-    margin: 7px 7px 7px 21px;
+    margin: 7px 7px 7px 7px;
     transition: all 600ms ease-in-out;
     -webkit-transition: all 600ms ease-in-out;
     -moz-transition: all 600ms ease-in-out;
@@ -84,11 +88,22 @@ form {
     display: inline-block;
 }
 
+input {
+    padding: 4px;
+    border: solid 2px RGB(196,196,196);
+    border-radius: 15px;
+    margin: 5px;
+}
+
 .navbartop input[type=text] {
-    float: right;
     padding: 5px;
-    margin: 0px 10px 2px 10px;
+    margin-left:30%;
     border: none;
+    height:25px;
+    width:500%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
 }
 
 nav {
@@ -103,6 +118,7 @@ nav ul li {
 }
 
 nav a {
+    margin-left:10px;
     padding: 5px;
     text-decoration:none;
     color:white;
@@ -113,8 +129,9 @@ nav a {
     -moz-transition: all 600ms ease-in-out;
     -o-transition: all 600ms ease-in-out;
 }
+
 nav a:first {
-    margin-left:0;
+    margin-left:10px;
 }
 
 nav a:last {
@@ -124,6 +141,28 @@ nav a:last {
 nav a:hover{
     background-color:white;
     color: RGB(29,135,236);
+}
+
+#logo{
+    font-weight:bold;
+    font-size:25px;
+    display:inline-block ;
+    top:0;
+    left:10;
+    position: fixed;
+    color: white;
+    font-family: 'League Spartan';
+}
+
+#searchPart{
+  margin-left:100px;
+}
+
+
+#signs{
+  display:inline-block;
+  float:right;
+  height:150%;
 }
 
 #ad {
@@ -195,6 +234,7 @@ a.control_next {
 }
 
 #login {
+    display: block;
     padding: 20px;
     border-top: solid RGB(29,135,236) 3px;
     text-align: center;
@@ -213,4 +253,32 @@ a.control_next {
     height: 100px;
     width: 100%;
     overflow:hidden;
+}
+
+#wrapperFoot{
+  min-height: 100%;
+  height:-90px;
+}
+
+footer{
+  background-color:#3a3939;
+  color:white;
+  width: 100%;
+  height:90px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer a{
+  text-decoration: none;
+  color:white;
+}
+
+#dambuhala{
+  height:1000px;
+}
+
+#bodFot{
+    margin:0;
+    padding:0;
 }
