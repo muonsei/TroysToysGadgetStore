@@ -1,19 +1,27 @@
 /* A */
-a .item-view-details {
-    
-}
-
-a .product-buy-now {
-    
-}
-
 /* B */
-button .blue-allcaps {
+.blue-allcaps {
+    
+}
+
+.btn-buy-cancel {
+    
+}
+
+.btn-buy-confirm {
     
 }
 
 /* D */
 div #ad {
+    
+}
+
+div .all-filters {
+    
+}
+
+div .confirm-details {
     
 }
 
@@ -26,6 +34,10 @@ div .div-form {
 }
 
 div .flow-from-left-full {
+    
+}
+
+div .flow-from-left-notfull {
     
 }
 
@@ -45,11 +57,19 @@ div .navbar-top {
     background-color: RGB();
 }
 
+div .sort {
+    
+}
+
 div #signin {
     
 }
 
 div #signup {
+    
+}
+
+div .single-filter {
     
 }
 
@@ -79,7 +99,17 @@ header {
     background-color:
 }
 
+/* I */
+.item-view-details {
+    
+}
+
 /* L */
 label .formlabel {
+    
+}
+
+/* P */
+.product-buy-now {
     
 }
